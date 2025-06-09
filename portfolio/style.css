@@ -111,8 +111,40 @@ footer{
 .footer > div{
     width: 223px;
 }
+.footer .footer-third  {
+    color: gray;
+}
+.footer .footer-third a {
+    text-decoration: none;
+    color: white;
+}
+.footer .footer-third a:hover {
+    color: rgb(33, 33, 142);
+    cursor: pointer;
+}
+
+.footer .footer-fourth  {
+    color: gray;
+}
+.footer .footer-fourth a {
+    text-decoration: none;
+    color: white;
+}
+.footer .footer-fourth a:hover {
+    color: rgb(33, 33, 142);
+    cursor: pointer;
+}
 footer .footer-rights {
     text-align: center;
     color: gray;
     padding: 50px;
+}
+.footer-icon {
+    display: flex;
+    align-items:  center;
+    justify-content: space-evenly;
+
+}
+.footer-icon i {
+    font-size: 30px;
 }
